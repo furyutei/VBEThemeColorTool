@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--//
+Description: A replica of the Visual Studio 2017 "Dark" theme colors in the VBE Editor
+(*) [original](https://qiita.com/mochimo/items/e9be36619a76e15bc898)
+//-->
+<VbeTheme name="VS2017" desc="VS2017 Dark Theme">
+    <ThemeColors>
+        <Color colorID="1" HexColor="22282A" />
+        <Color colorID="2" HexColor="93C761" />
+        <Color colorID="3" HexColor="4EC9B0" />
+        <Color colorID="4" HexColor="608B4E" />
+        <Color colorID="5" HexColor="F1F2F3" />
+        <Color colorID="6" HexColor="3B4648" />
+        <Color colorID="7" HexColor="8EC763" />
+        <Color colorID="8" HexColor="417113" />
+        <Color colorID="9" HexColor="DCDCDC" />
+        <Color colorID="10" HexColor="7F3640" />
+        <Color colorID="11" HexColor="B0AF4C" />
+        <Color colorID="12" HexColor="E51400" />
+        <Color colorID="13" HexColor="D69D85" />
+        <Color colorID="14" HexColor="CE9178" />
+        <Color colorID="15" HexColor="608B4E" />
+        <Color colorID="16" HexColor="B5CEA8" />
+  </ThemeColors>
+</VbeTheme>
