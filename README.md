@@ -16,17 +16,21 @@
 ■ 使い方
 ---
 ⚠ あらかじめVBE7.DLLのある場所を探し、必ず別の場所にバックアップを取っておくようにしてください。  
+※ 参考までに、当方の環境だと以下の場所にありました。  
+
+- [32ビット版] `C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\VBA\VBA7.1`
+- [64ビット版] `C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\VBA\VBA7.1`
 
 1. distフォルダにある「vbetctool.exe」を、VBEThemeColorEditorと同じディレクトリにコピーします。
 1. 起動しているエクセル等のオフィスアプリを全て終了します。  
 1. コマンドプロンプトを管理者権限で起動し、1. のディレクトリに移動して
     ```bat
-    vbetctool -l <VBE7.DLLのフルパス> -t <指定したいテーマファイルのフルパス> -f <前景色の割当> -b <背景色の割当>
+    vbetctool -l <VBE7.DLLのフルパス> -t <指定したいテーマファイルのパス> -f <前景色の割当> -b <背景色の割当>
     ```
     のようにします。  
     具体例を挙げると、  
     ```
-    vbetctool -l "C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\VBA\VBA7.1\VBE7.DLL" -t ".\Themes\VS2017 Dark.xml" -f "14 9 12 9 5 4 2 5 5 5" -b "1 6 1 4 10 1 1 1 1 6"
+    vbetctool -l "C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\VBA\VBA7.1\VBE7.DLL" -t ".\Themes\VS2017 Dark.xml" -f "14 9 12 9 5 4 2 5 5 5" -b "1 6 1 4 10 1 1 1 1 6"
     ```
     のような感じになります。  
     ※「-l と -t」、「-f」、「-b」の各オプションはそれぞれ単独で使用できます（-l と -t は同時に指定してください）  
