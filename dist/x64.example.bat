@@ -7,6 +7,6 @@ set ThemeXml=".\Themes\VS2017 Dark.xml"
 set ForeColors="14 9 12 9 5 4 2 5 5 5"
 set BackColors="1 6 1 4 10 1 1 1 1 6"
 
-vbetctool -l %VBE7DLL% -t %ThemeXml% -f %ForeColors% -b %BackColors%
+vbetctool -l %VBE7DLL% -t %ThemeXml% -f %ForeColors% -b %BackColors% -V
 
 popd
